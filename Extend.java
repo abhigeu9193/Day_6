@@ -1,12 +1,9 @@
 public class Extend{
  
     public static void main(String[] args) {
-        //range
         int min = 2;
         int max = 100;
-        //find all prime numbers in the given range
         for(int n=min;n<=max;n++) {
-            //check if this number is prime
             if(isPrime(n)) {
                 System.out.println(n);
             }
